@@ -12,5 +12,8 @@ public class Main {
         System.out.println("enter b");
         b = number.nextInt();
 
+        result = a+b;
+        System.out.println("result = " + result );
+
     }
 }
