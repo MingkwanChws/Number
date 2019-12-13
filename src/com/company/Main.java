@@ -1,7 +1,9 @@
 package com.company;
 import java.util.Scanner;
 public class Main {
-
+    public static int rectangle(int width, int length) {
+        return width * length;
+    }
     public static void main(String[] args) {
         int a;
         int b;
@@ -23,7 +25,8 @@ public class Main {
         width = com.nextInt();
         System.out.println("enter length");
         length = com.nextInt();
-        area = width*length;
+//        area = width*length;
+        area = rectangle(width,length);
         System.out.println("area (" + width + "*" + length + ") = " + area);
     }
 }
