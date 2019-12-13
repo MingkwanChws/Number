@@ -12,17 +12,17 @@ public class Main {
         System.out.println("enter b");
         b = number.nextInt();
         result = a+b;
-        System.out.println("result = " + result );
+        System.out.println("result (" + a + "+" + b +") = " + result );
 
         int x;
         int y;
-        int answer;
+        int area;
         Scanner com = new Scanner(System.in);
         System.out.println("enter x");
         x = com.nextInt();
         System.out.println("enter y");
         y = com.nextInt();
-        answer = x*y;
-        System.out.println("answer = "+answer);
+        area = x*y;
+        System.out.println("answer (" + x + "*" + y + ") = " + area);
     }
 }
