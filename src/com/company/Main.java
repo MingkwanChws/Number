@@ -13,16 +13,17 @@ public class Main {
         b = number.nextInt();
         result = a+b;
         System.out.println("result (" + a + "+" + b +") = " + result );
+        System.out.println(" ");
 
-        int x;
-        int y;
+        int width;
+        int length;
         int area;
         Scanner com = new Scanner(System.in);
-        System.out.println("enter x");
-        x = com.nextInt();
-        System.out.println("enter y");
-        y = com.nextInt();
-        area = x*y;
-        System.out.println("answer (" + x + "*" + y + ") = " + area);
+        System.out.println("enter width");
+        width = com.nextInt();
+        System.out.println("enter length");
+        length = com.nextInt();
+        area = width*length;
+        System.out.println("area (" + width + "*" + length + ") = " + area);
     }
 }
